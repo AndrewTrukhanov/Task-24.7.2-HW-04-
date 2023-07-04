@@ -256,7 +256,7 @@ def test_add_new_pet_without_photo_with_invalid_data_animal_type(name='Kesha', a
     print(status)
 
 def test_add_pet_photo_with_valid_data(pet_photo='images/123.jpg'):
-    """Проверяем что можно добавить питомца с корректными данными"""
+    """Проверяем что можно добавить фото питомца с корректными данными"""
 
     # Получаем полный путь изображения питомца и сохраняем в переменную pet_photo
     pet_photo = os.path.join(os.path.dirname(__file__), pet_photo)
